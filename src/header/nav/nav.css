@@ -1,0 +1,408 @@
+.gmap_canvas {
+  overflow: hidden;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+#desplegable {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: -400px;
+  top: 0px;
+  background-color: black;
+  z-index: 1;
+  cursor: default;
+  transition: 0.5s;
+}
+
+#desplegable:target {
+  box-shadow: 100vh 0px 1px 100vh rgba(0, 0, 0, 0.8);
+  left: 0px;
+}
+
+.menu img {
+  margin: 5px;
+  width: 25px;
+  height: auto;
+  animation: menu 10s infinite;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  width: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.gmap_canvas{
+  overflow: hidden;
+  background: none !important;
+  width: 95%;
+}
+
+.nav1 {
+  display: none;
+}
+
+.cierre {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cierre img {
+  margin: 10px;
+  height: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.redes img {
+  height: 30px;
+  width: auto;
+}
+
+.logo1 {
+  margin: 5px;
+  height: 20px;
+}
+
+#redes img {
+  height: 40px;
+  width: auto;
+}
+
+#vehiculos img {
+  height: 40px;
+}
+
+#cierre img {
+  height: 20px;
+}
+
+.carrito, .formulario, .mensajeEnvio{
+  display: none;
+}
+.mensajeEnvio1{
+  top: 100px;
+  position: fixed;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  animation: aparecer 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 0 100vh 100vh rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+.formulario1{
+  width: 90%;
+  height: 85vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: aparecer 0.3s;
+}
+.labelOculto, .inputModeloOculto, .inputAccesorioOculto, .inputMontoOculto{
+  display: none;
+}
+input{
+  margin-bottom: 25px;
+}
+input:focus{
+  box-shadow: 0 0 5px 0px black;
+}
+.carrito1{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 40px;
+  margin-left: 5%;
+  width: 90%;
+  height: 90vh;
+  border-radius: 5px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  background-color: white;
+  z-index: 5;
+  box-shadow: 0 0 100vh 100vh rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+  animation: aparecer 0.3s;
+  overflow-Y: scroll;
+}
+.flecha{
+  display: none;
+}
+.flecha1{
+  display: block;
+  position: fixed;
+  top: 42px;
+  right: 8px;
+  z-index: 3;
+  animation: flecha 2s forwards;
+}
+.tituloCarrito{
+  font-size: 2rem;
+}
+.itemsCarrito{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
+  align-items: center;
+  padding: 10px;
+}
+.desaparecer{
+  animation: desaparecer 0.4s;
+}
+.baseCarrito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+.baseCarrito, h2{
+  color: white;
+  margin: 0;
+}
+.cierreCarrito, .cierreFormulario{
+  position: fixed;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-self: flex-end;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px white);
+}
+.botonCarrito{
+  margin-right: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+.contadorCarrito{
+  position: absolute;
+  font-size: 0.9rem;
+  top: 1px;
+  right: 13px;
+  text-align: justify;
+  margin: 0;
+}
+.items{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+.eliminarItems{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.imgArt{
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-left: 2px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 70%;
+}
+.info, p{
+  margin: 0;
+}
+.realizarPedido{
+  grid-column: 1 / 3;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.realizarPedido:active{
+  color: black;
+  background-color: white;
+}
+#botonAgregar{
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+#botonAgregar:active{
+  border-radius: 0px;
+  color: white;
+  background-color: black;
+}
+.error{
+  transition: 0.5s;
+  background-color: rgb(255, 183, 183);
+}
+@keyframes aparecer{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+@keyframes desaparecer{
+  0%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+@keyframes flecha{
+  0%{
+    opacity: 0%;
+    top: 60px;
+  }
+  50%{
+    opacity: 100%;
+    top: 47px;
+  }
+  100%{
+    opacity: 0%;
+    top: 42px;
+  }
+}
+
+@media (min-width: 740px) {
+  .bajoCabecera {
+    top: 50px;
+    border-top: 1px solid white;
+  }
+
+  .nav1 {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+  }
+
+  .logo {
+    margin: 5px;
+    height: 30px;
+  }
+
+  #vehiculos,
+  #redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -2000px;
+    top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    transition: 0.5s;
+    border-bottom: 1px solid;
+  }
+
+  #ubicacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: absolute;
+    left: -2000px;
+    top: 40px;
+    padding-left: 10%;
+    padding-right: 10px;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  #vehiculos:target,
+  #ubicacion:target,
+  #redes:target {
+    left: 0px;
+    top: 40px;
+  }
+
+  #redes img {
+    height: 40px;
+    width: auto;
+  }
+
+  #vehiculos img {
+    height: 40px;
+  }
+
+  #cierre img {
+    height: 20px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 90%;
+    height: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .contadorCarrito{
+    position: absolute;
+    font-size: 0.9rem;
+    top: 5px;
+    right: 23px;
+  }
+}
+
+@media (min-width: 950px) {
+  .contadorCarrito{
+    position: absolute;
+    top: 5px;
+    right: 23px;
+  }
+}

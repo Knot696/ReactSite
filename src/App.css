@@ -1,0 +1,142 @@
+* {
+  font-family: 'Nouvelb', sans-serif;
+}
+
+@font-face {
+  font-family: "Nouvel";
+  src: url(./assets/fuentes/NouvelR-Book.otf);
+}
+
+@font-face {
+  font-family: "Nouvelb";
+  src: url(./assets/fuentes/NouvelR-Bold.otf);
+}
+
+@font-face {
+  font-family: "Nouvelxb";
+  src: url(./assets/fuentes/NouvelR-Extrabold.otf);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagenPresentacion1,
+.imagenPresentacion {
+  margin-top: 35px;
+  width: 100%;
+  animation: cab 3s forwards;
+}
+
+main {
+  margin: 7%;
+  display: grid;
+  width: auto;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 5%;
+  row-gap: 20px;
+}
+
+footer {
+  background-color: black;
+  border: 15px solid black;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Nouvelxb";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  animation: cab 4s forwards;
+  line-height: 0.8;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-family: "Nouvelxb";
+  font-size: 25px;
+  text-align: center;
+}
+
+h3 {
+  margin: 15px;
+  margin-top: 0px;
+}
+
+h4 {
+  font-family: "Nouvelxb";
+  font-size: 1rem;
+  background-color: rgb(243, 222, 53);
+  text-align: center;
+  width: 95%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+ul {
+  margin-top: 0px;
+  line-height: 1.4;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: rgb(243, 222, 53);
+}
+
+a img {
+  transition: 0.2s;
+}
+
+a img:hover {
+  filter: opacity(0.5);
+}
+
+p {
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "nouvel";
+}
+
+@media (min-width: 685px) {
+  main {
+    margin: 2%;
+  }
+}
+
+@media (min-width: 740px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 5%;
+  }
+
+  .imagenPresentacion1 {
+    margin-top: 40px;
+    width: 70%;
+  }
+}
+
+@media (min-width: 950px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 5%;
+  }
+
+  .imagenPresentacion1 {
+    width: 60%
+  }
+}
