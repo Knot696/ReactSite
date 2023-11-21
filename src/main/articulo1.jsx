@@ -1,6 +1,9 @@
 import './articulo.css'
 
-function Articulo1({imagen, descripcion, l1, l2, l3, l4, precio}) {
+function Articulo1({imagen, descripcion, l1, l2, l3, l4, l5, precio}) {
+
+  
+
   return (
     <div className='article'>
         <img src={imagen} />
@@ -10,6 +13,7 @@ function Articulo1({imagen, descripcion, l1, l2, l3, l4, precio}) {
             {l2}
             {l3}
             {l4}
+            {l5}
         </ul>
         <div className='valor'>
             <h3>Valor: $</h3>

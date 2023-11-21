@@ -84,8 +84,8 @@ function Nav() {
           </div>
         </div>
         <div className={`formulario${formulario ? " formulario1" : ""}`}>
-          <h3 className="tituloCarrito">Datos cliente</h3>
           <img className="cierreFormulario" onClick={cerrarformulario} src={cierre}/>
+          <h3 className="tituloFormulario">Datos cliente</h3>
           <form className="formulario1" action="https://formsubmit.co/aleknot.696@gmail.com" method="post">
             <label for="nombre">Nombre</label>
             <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15"/>
@@ -149,7 +149,35 @@ function Nav() {
           <div className="baseCarrito">
             <h2>Total:</h2>
             <h2 className="totalCarrito">$0</h2>
-            <button className="realizarPedido">Realizar pedido</button>
+            <button className="realizarPedido" onClick={abrirformulario}>Realizar pedido</button>
+          </div>
+        </div>
+        <div className={`formulario${formulario ? " formulario1" : ""}`}>
+          <img className="cierreFormulario" onClick={cerrarformulario} src={cierre}/>
+          <h3 className="tituloFormulario">Datos cliente</h3>
+          <form className="formulario1" action="https://formsubmit.co/aleknot.696@gmail.com" method="post">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15"/>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" name="apellido" type="family-name" minlength="2" maxlength="15"/>
+            <label for="telefono">Telefono</label>
+            <input id="telefono" name="telefono" type="tel"/>
+            <label for="email">Email</label>
+            <input id="email" name="email" min="5" type="email"/>
+            <label className="labelOculto" for="modelo">Modelo</label>
+            <input className="inputModeloOculto" name="modelo" id="modelo" type="text" value="DUSTER"/>
+            <label className="labelOculto" for="accesorios">Accesorios</label>
+            <input className="inputAccesorioOculto" name="accesorios" id="accesorios" type="text"/>
+            <label className="labelOculto" for="monto">Monto total</label>
+            <input className="inputMontoOculto" name="monto" id="monto" type="text"/>
+            <button id="envioFormu" className="realizarPedido">Enviar</button>
+            <input type="hidden" name="_next" value="http://knot696.online/"/>
+            <input type="hidden" name="_captcha" value="false"/>
+          </form>
+          <div className="mensajeEnvio">
+            <img src={check}/>
+            <h3>Pedido realizado correctamente</h3>
+            <h6>En breve nos comunicaremos con usted para finalizar su pedido.</h6>
           </div>
         </div>
       </div>
