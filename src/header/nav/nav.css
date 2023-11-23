@@ -47,6 +47,8 @@ nav {
   overflow: hidden;
   background: none !important;
   width: 95%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .nav1 {

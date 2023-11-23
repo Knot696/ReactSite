@@ -1,0 +1,65 @@
+.wap img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px black;
+    animation: wap 2s infinite;
+    transition: 0.2s;
+    border: 0;
+}
+
+.wap img:hover {
+    filter: opacity(1);
+    filter: saturate(1.5);
+}
+
+.mensajew {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    z-index: 2;
+}
+
+.mensaje {
+    font-family: "Nouvelb";
+    text-align: center;
+    background-color: rgb(51, 204, 51);
+    width: 200px;
+    margin: 0px;
+    border-radius: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px 2px black;
+    animation: cabi 10s forwards;
+    z-index: 0;
+}
+
+@keyframes wap {
+    0% {
+        transform: scale(100%);
+    }
+
+    50% {
+        transform: scale(130%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+@keyframes cabi {
+    0%{
+      filter: opacity(0);
+    }
+    90%{
+      filter: opacity(0);
+    }
+    100%{
+      filter: opacity(1);
+    }
+  }

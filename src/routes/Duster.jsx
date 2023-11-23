@@ -3,6 +3,7 @@ import Nav from '../header/nav/nav'
 import imagenPresentacion from '../../imagenes/cabeceras/duster.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Articulo1 from '../main/articulo1'
+import Whatsapp from '../main/whatsapp'
 import img1 from '../assets/imagenes/duster/d1.jpg'
 import img2 from '../assets/imagenes/duster/d7.jpg'
 import img3 from '../assets/imagenes/duster/d2.jpg'
@@ -37,13 +38,8 @@ function Duster() {
         <Articulo1 imagen={img10} descripcion={'TORNILLOS DE SEGURIDAD'} l1={<li>Kit 4 tornillos de seguridad con llave especial.</li>} l2={<li>Evita la manipulación de llantas con herramientas convencionales.</li>} precio={'30000'}/>
         <Articulo1 imagen={img11} descripcion={'POLARIZADOS'} l1={<li>Polarizados comunes y de seguridad.</li>} l2={<li>Laminas con tonalidad media y clara.</li>} precio={'47300'}/>
         <Articulo1 imagen={img12} descripcion={'KIT SEGURIDAD'} l1={<li>Matafuego homologado 1kg polvo ABC.</li>} l2={<li>Pechera.</li>} l3={<li>Botiquín.</li>} l4={<li>Balizas reflectivas con base.</li>} precio={'38200'}/>
+        <Whatsapp />
       </main>
-      <footer className='footer'>
-        <p>Teléfonos: 03468-471876/471546 Celular: 3468-437548</p>
-        <p>Mail: jgiorgirepuestos@gmail.com</p>
-        <p>Horarios: Lunes a Viernes 08:00 a 12:00hs | Sábados 08:00 a 12:00hs</p>
-        <p>Dirección: Av. Juan Domingo Perón 1452, Monte Maíz, Cba.</p>
-      </footer>
     </>
   )
 }

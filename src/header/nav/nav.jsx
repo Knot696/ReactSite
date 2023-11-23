@@ -17,29 +17,29 @@ import logoWeb from '../../assets/imagenes/items/logoweb1.png'
 import logoFace1 from '../../assets/imagenes/items/logoface.png'
 import logoInsta1 from '../../assets/imagenes/items/logoinsta.png'
 import logoWeb1 from '../../assets/imagenes/items/logoweb.png'
-import botonCarrito from '../../assets/imagenes/items/carrito.png'
+import botonCarrito from '../../assets/imagenes/items/carrito.jpg'
 import check from '../../assets/imagenes/items/check.png'
 
 
 
-function Nav() {
+function Nav({valor}) {
 
-  const[carrito, setCarrito] = useState(false)
+  const [carrito, setCarrito] = useState(false);
 
-  const abrirCarrito=()=>{
-    setCarrito(true)
+  const abrirCarrito = () => {
+    setCarrito(true);
   }
-  const cerrarCarrito=()=>{
-    setCarrito(false)
+  const cerrarCarrito = () => {
+    setCarrito(false);
   }
-  
-  const[formulario, setformulario] = useState(false)
 
-  const abrirformulario=()=>{
-    setformulario(true)
+  const [formulario, setformulario] = useState(false);
+
+  const abrirformulario = () => {
+    setformulario(true);
   }
-  const cerrarformulario=()=>{
-    setformulario(false)
+  const cerrarformulario = () => {
+    setformulario(false);
   }
 
   return (
@@ -70,7 +70,6 @@ function Nav() {
         </div>
         <img className='logo1' src={logo} />
         <div>
-          <p className="contadorCarrito">0</p>
           <img className="botonCarrito" onClick={abrirCarrito} src={botonCarrito} />
         </div>
         <div className={`carrito${carrito ? " carrito1" : ""}`}>
@@ -84,29 +83,29 @@ function Nav() {
           </div>
         </div>
         <div className={`formulario${formulario ? " formulario1" : ""}`}>
-          <img className="cierreFormulario" onClick={cerrarformulario} src={cierre}/>
+          <img className="cierreFormulario" onClick={cerrarformulario} src={cierre} />
           <h3 className="tituloFormulario">Datos cliente</h3>
           <form className="formulario1" action="https://formsubmit.co/aleknot.696@gmail.com" method="post">
             <label for="nombre">Nombre</label>
-            <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15"/>
+            <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15" />
             <label for="apellido">Apellido</label>
-            <input id="apellido" name="apellido" type="family-name" minlength="2" maxlength="15"/>
+            <input id="apellido" name="apellido" type="family-name" minlength="2" maxlength="15" />
             <label for="telefono">Telefono</label>
-            <input id="telefono" name="telefono" type="tel"/>
+            <input id="telefono" name="telefono" type="tel" />
             <label for="email">Email</label>
-            <input id="email" name="email" min="5" type="email"/>
+            <input id="email" name="email" min="5" type="email" />
             <label className="labelOculto" for="modelo">Modelo</label>
-            <input className="inputModeloOculto" name="modelo" id="modelo" type="text" value="DUSTER"/>
+            <input className="inputModeloOculto" name="modelo" id="modelo" type="text" value="DUSTER" />
             <label className="labelOculto" for="accesorios">Accesorios</label>
-            <input className="inputAccesorioOculto" name="accesorios" id="accesorios" type="text"/>
+            <input className="inputAccesorioOculto" name="accesorios" id="accesorios" type="text" />
             <label className="labelOculto" for="monto">Monto total</label>
-            <input className="inputMontoOculto" name="monto" id="monto" type="text"/>
+            <input className="inputMontoOculto" name="monto" id="monto" type="text" />
             <button id="envioFormu" className="realizarPedido">Enviar</button>
-            <input type="hidden" name="_next" value="http://knot696.online/"/>
-            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="http://knot696.online/" />
+            <input type="hidden" name="_captcha" value="false" />
           </form>
           <div className="mensajeEnvio">
-            <img src={check}/>
+            <img src={check} />
             <h3>Pedido realizado correctamente</h3>
             <h6>En breve nos comunicaremos con usted para finalizar su pedido.</h6>
           </div>
@@ -139,7 +138,6 @@ function Nav() {
           <a id="cierre" href="#"><img src={cierre} /></a>
         </div>
         <div>
-          <p className="contadorCarrito">0</p>
           <img className="botonCarrito" onClick={abrirCarrito} src={botonCarrito} />
         </div>
         <div className={`carrito${carrito ? " carrito1" : ""}`}>
@@ -153,29 +151,29 @@ function Nav() {
           </div>
         </div>
         <div className={`formulario${formulario ? " formulario1" : ""}`}>
-          <img className="cierreFormulario" onClick={cerrarformulario} src={cierre}/>
+          <img className="cierreFormulario" onClick={cerrarformulario} src={cierre} />
           <h3 className="tituloFormulario">Datos cliente</h3>
           <form className="formulario1" action="https://formsubmit.co/aleknot.696@gmail.com" method="post">
             <label for="nombre">Nombre</label>
-            <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15"/>
+            <input id="nombre" name="nombre" type="name" minLength="2" maxLength="15" />
             <label for="apellido">Apellido</label>
-            <input id="apellido" name="apellido" type="family-name" minlength="2" maxlength="15"/>
+            <input id="apellido" name="apellido" type="family-name" minlength="2" maxlength="15" />
             <label for="telefono">Telefono</label>
-            <input id="telefono" name="telefono" type="tel"/>
+            <input id="telefono" name="telefono" type="tel" />
             <label for="email">Email</label>
-            <input id="email" name="email" min="5" type="email"/>
+            <input id="email" name="email" min="5" type="email" />
             <label className="labelOculto" for="modelo">Modelo</label>
-            <input className="inputModeloOculto" name="modelo" id="modelo" type="text" value="DUSTER"/>
+            <input className="inputModeloOculto" name="modelo" id="modelo" type="text" value="DUSTER" />
             <label className="labelOculto" for="accesorios">Accesorios</label>
-            <input className="inputAccesorioOculto" name="accesorios" id="accesorios" type="text"/>
+            <input className="inputAccesorioOculto" name="accesorios" id="accesorios" type="text" />
             <label className="labelOculto" for="monto">Monto total</label>
-            <input className="inputMontoOculto" name="monto" id="monto" type="text"/>
+            <input className="inputMontoOculto" name="monto" id="monto" type="text" />
             <button id="envioFormu" className="realizarPedido">Enviar</button>
-            <input type="hidden" name="_next" value="http://knot696.online/"/>
-            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="http://knot696.online/" />
+            <input type="hidden" name="_captcha" value="false" />
           </form>
           <div className="mensajeEnvio">
-            <img src={check}/>
+            <img src={check} />
             <h3>Pedido realizado correctamente</h3>
             <h6>En breve nos comunicaremos con usted para finalizar su pedido.</h6>
           </div>

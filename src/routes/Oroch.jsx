@@ -3,6 +3,7 @@ import Nav from '../header/nav/nav'
 import imagenPresentacion from '../../imagenes/cabeceras/oroch.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Articulo1 from '../main/articulo1'
+import Whatsapp from '../main/whatsapp'
 import img1 from '../assets/imagenes/duster/d1.jpg'
 import img2 from '../assets/imagenes/duster/d7.jpg'
 import img3 from '../assets/imagenes/duster/d2.jpg'
@@ -37,13 +38,8 @@ function Oroch() {
         <Articulo1 imagen={img10} descripcion={'Polarizado tonalidad intermedia Renault Kangoo II'} />
         <Articulo1 imagen={img11} descripcion={'Polarizado tonalidad intermedia Renault Kangoo II'} />
         <Articulo1 imagen={img12} descripcion={'Cola escape Renault Alaskan'} />
+        <Whatsapp />
       </main>
-      <footer className='footer'>
-        <p>Teléfonos: 03468-471876/471546 Celular: 3468-437548</p>
-        <p>Mail: jgiorgirepuestos@gmail.com</p>
-        <p>Horarios: Lunes a Viernes 08:00 a 12:00hs | Sábados 08:00 a 12:00hs</p>
-        <p>Dirección: Av. Juan Domingo Perón 1452, Monte Maíz, Cba.</p>
-      </footer>
     </>
   )
 }

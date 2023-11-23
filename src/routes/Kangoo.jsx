@@ -3,6 +3,7 @@ import Nav from '../header/nav/nav'
 import imagenPresentacion from '../assets/imagenes/cabeceras/kangoo.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Articulo1 from '../main/articulo1'
+import Whatsapp from '../main/whatsapp'
 import img1 from '../assets/imagenes/kangoo/k2.jpg'
 import img2 from '../assets/imagenes/kangoo/k1.jpg'
 import img3 from '../assets/imagenes/genericos/k3.jpg'
@@ -39,13 +40,8 @@ function Kangoo() {
         <Articulo1 imagen={img11} descripcion={'COBERTOR FURGON BRACCO'} l1={<li>Plástico termoformado resistente al sol y productos químicos.</li>} l2={<li>Textura antideslizante de fácil limpieza.</li>} precio={182400}/>
         <Articulo1 imagen={img12} descripcion={'POLARIZADOS'} l1={<li>Polarizados comunes y de seguridad.</li>} l2={<li>Laminas con tonalidad media y clara.</li>} precio={47300}/>
         <Articulo1 imagen={img13} descripcion={'KIT DE SEGURIDAD'} l1={<li>Matafuego homologado 1kg polvo ABC.</li>} l2={<li>Pechera.</li>} l3={<li>Botiquín.</li>} precio={38200}/>
+        <Whatsapp />
       </main>
-      <footer className='footer'>
-        <p>Teléfonos: 03468-471876/471546 Celular: 3468-437548</p>
-        <p>Mail: jgiorgirepuestos@gmail.com</p>
-        <p>Horarios: Lunes a Viernes 08:00 a 12:00hs | Sábados 08:00 a 12:00hs</p>
-        <p>Dirección: Av. Juan Domingo Perón 1452, Monte Maíz, Cba.</p>
-      </footer>
     </>
   )
 }

@@ -3,6 +3,7 @@ import './App.css'
 import imagenPresentacion from '../imagenes/cabeceras/cabecera1.jpg'
 import BajoCabecera from './header/nav/bajoCabecera'
 import Articulo from './main/articulo'
+import Whatsapp from './main/whatsapp'
 import img1 from './assets/imagenes/colocados/t1.jpg'
 import img2 from './assets/imagenes/colocados/t4.jpg'
 import img3 from './assets/imagenes/colocados/t5.jpg'
@@ -26,7 +27,7 @@ function App() {
       <header className='header'>
         <Nav />
         <img className='imagenPresentacion' src={imagenPresentacion} />
-        <BajoCabecera titulo={'ACCESORIOS COLOCADOS'}/>
+        <BajoCabecera titulo={'ACCESORIOS COLOCADOS'} />
       </header>
       <main className='main'>
         <Articulo imagen={img1} descripcion={'Estribos ovales colocados en Ford Ranger.'} />
@@ -45,6 +46,7 @@ function App() {
         <Articulo imagen={img14} descripcion={'Deflectores lluvia Renault Alaskan'} />
         <Articulo imagen={img15} descripcion={'Fenders Renault Alaskan'} />
         <Articulo imagen={img16} descripcion={'Lona marítima Ford Ranger'} />
+        <Whatsapp />
       </main>
       <footer className='footer'>
         <p>Teléfonos: 03468-471876/471546 Celular: 3468-437548</p>

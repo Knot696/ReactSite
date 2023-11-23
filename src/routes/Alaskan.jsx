@@ -3,6 +3,7 @@ import Nav from '../header/nav/nav'
 import imagenPresentacion from '../assets/imagenes/cabeceras/alaskan.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Articulo1 from '../main/articulo1'
+import Whatsapp from '../main/whatsapp'
 import img1 from '../assets/imagenes/alaskan/1.jpg'
 import img2 from '../assets/imagenes/alaskan/2.jpg'
 import img3 from '../assets/imagenes/alaskan/4.jpg'
@@ -59,13 +60,8 @@ function Alaskan() {
         <Articulo1 imagen={img21} descripcion={'ESTRIBOS OVALES'} l1={<li>Caño de 3,5 ovalado.</li>} l2={<li>Pisaderas antideslizantes y punteras de inyección plástica.</li>} l3={<li>Fijados al chasis con soportes específicos.</li>} precio={362700}/>
         <Articulo1 imagen={img22} descripcion={'TAPA RIGIDA'} l1={<li>Componentes ensamblados y sellados con siliconas especiales.</li>} l2={<li>Resistente a las inclemencias del tiempo.</li>} l3={<li>Fácil de operar en el uso diario.</li>} precio={570800}/>
         <Articulo1 imagen={img23} descripcion={'KIT SEGURIDAD'} l1={<li>Matafuego homologado 1kg polvo ABC.</li>} l2={<li>Pechera.</li>} l3={<li>Botiquín.</li>} l4={<li>Balizas reflectivas con base.</li>} precio={38200}/>
+        <Whatsapp />
       </main>
-      <footer className='footer'>
-        <p>Teléfonos: 03468-471876/471546 Celular: 3468-437548</p>
-        <p>Mail: jgiorgirepuestos@gmail.com</p>
-        <p>Horarios: Lunes a Viernes 08:00 a 12:00hs | Sábados 08:00 a 12:00hs</p>
-        <p>Dirección: Av. Juan Domingo Perón 1452, Monte Maíz, Cba.</p>
-      </footer>
     </>
   )
 }
