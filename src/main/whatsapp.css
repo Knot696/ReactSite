@@ -21,7 +21,6 @@
     position: fixed;
     bottom: 25px;
     right: 15px;
-    z-index: 2;
 }
 
 .mensaje {
@@ -35,7 +34,6 @@
     border-bottom-right-radius: 10px;
     box-shadow: 0 0 5px 2px black;
     animation: cabi 10s forwards;
-    z-index: 0;
 }
 
 @keyframes wap {
