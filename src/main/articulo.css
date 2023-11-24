@@ -7,6 +7,10 @@
   gap: 10px;
   border: 2px solid;
   border-radius: 10px;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
 }
 
 .pieItem{
@@ -71,4 +75,15 @@ main img {
   border-radius: 5px;
   color: black;
   background-color: white;
+}
+
+@keyframes show {
+  0%{
+    opacity: 0;
+    scale: 0%;
+  }
+  40%{
+    opacity: 1;
+    scale: 100%;
+  }
 }

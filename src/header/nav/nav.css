@@ -41,6 +41,7 @@ nav {
   width: auto;
   background-color: black;
   width: 100%;
+  z-index: 5;
 }
 
 .gmap_canvas {
@@ -380,6 +381,7 @@ p {
     align-items: center;
     justify-content: space-between;
     background-color: black;
+    z-index: 5;
   }
 
   .logo {
