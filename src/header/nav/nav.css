@@ -173,7 +173,7 @@ input:focus {
   box-shadow: 0 0 100vh 100vh rgba(0, 0, 0, 0.8);
   transition: 0.5s;
   animation: aparecer 0.3s;
-  overflow-Y: scroll;
+  overflow-y: scroll;
 }
 
 .flecha {
