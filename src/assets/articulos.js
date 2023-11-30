@@ -19,7 +19,7 @@ export const articulosDuster = [
   },
   {
     id: 3,
-    imagen: './imagenes/duster/3.jpg',
+    imagen: '/imagenes/duster/3.jpg',
     nombre: 'APOYABRAZOS',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -28,7 +28,7 @@ export const articulosDuster = [
   },
   {
     id: 4,
-    imagen: './imagenes/duster/4.jpg',
+    imagen: '/imagenes/duster/4.jpg',
     nombre: 'PROTECTORES DE PUERTA',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -37,7 +37,7 @@ export const articulosDuster = [
   },
   {
     id: 5,
-    imagen: './imagenes/duster/5.jpg',
+    imagen: '/imagenes/duster/5.jpg',
     nombre: 'DEFLECTORES DE LLUVIA',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -46,7 +46,7 @@ export const articulosDuster = [
   },
   {
     id: 6,
-    imagen: './imagenes/duster/6.jpg',
+    imagen: '/imagenes/duster/6.jpg',
     nombre: 'TRABA RUEDA AUXILIO',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -55,7 +55,7 @@ export const articulosDuster = [
   },
   {
     id: 7,
-    imagen: './imagenes/duster/7.jpg',
+    imagen: '/imagenes/duster/7.jpg',
     nombre: 'KIT FENDERS',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -64,7 +64,7 @@ export const articulosDuster = [
   },
   {
     id: 8,
-    imagen: './imagenes/duster/8.jpg',
+    imagen: '/imagenes/duster/8.jpg',
     nombre: 'CAMARA RETROCESO',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -73,7 +73,7 @@ export const articulosDuster = [
   },
   {
     id: 9,
-    imagen: './imagenes/duster/9.jpg',
+    imagen: '/imagenes/duster/9.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -82,7 +82,7 @@ export const articulosDuster = [
   },
   {
     id: 10,
-    imagen: './imagenes/duster/10.jpg',
+    imagen: '/imagenes/duster/10.jpg',
     nombre: 'TUERCAS DE SEGURIDAD',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -91,7 +91,7 @@ export const articulosDuster = [
   },
   {
     id: 11,
-    imagen: './imagenes/duster/11.jpg',
+    imagen: '/imagenes/duster/11.jpg',
     nombre: 'POLARIZADO',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
@@ -100,7 +100,7 @@ export const articulosDuster = [
   },
   {
     id: 12,
-    imagen: './imagenes/duster/12.jpg',
+    imagen: '/imagenes/duster/,12.jpg',
     nombre: 'KIT SEGURIDAD',
     descripcion1: 'Jaula caño tubular simple',
     descripcion2: 'Jaula caño tubular simple',
