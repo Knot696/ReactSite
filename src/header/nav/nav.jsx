@@ -22,7 +22,7 @@ import check from '../../assets/imagenes/items/check.png'
 
 
 
-function Nav({valor}) {
+function Nav({valor, allProducts, setAllProdcuts, articulo}) {
 
   const [carrito, setCarrito] = useState(false);
 
@@ -75,7 +75,17 @@ function Nav({valor}) {
         <div className={`carrito${carrito ? " carrito1" : ""}`}>
           <h3 className="tituloCarrito">CARRITO</h3>
           <img className="cierreCarrito" onClick={cerrarCarrito} src={cierre} />
-          <div className="itemsCarrito"></div>
+          <div className="itemsCarrito">
+            {allProducts.map(articulo=>(
+              <div className='items' key={articulo.id}>
+                <img className="imgArt" src=""/>
+                <div>
+                  <p>{articulo.nombre}</p>
+                  <p>${articulo.precio}</p>
+                </div>
+              </div>
+            ))}
+          </div>
           <div className="baseCarrito">
             <h2>Total:</h2>
             <h2 className="totalCarrito">$0</h2>

@@ -4,18 +4,29 @@ import imagenPresentacion from '../assets/imagenes/cabeceras/duster.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Whatsapp from '../main/whatsapp'
 import { articulosDuster } from '../assets/articulos'
+import { useState } from 'react'
 
 function Duster() {
+
+  const [allProdcuts, setAllProdcuts]=useState([])
+
+  const onAddProduct =(articulo)=>{
+    setAllProdcuts([...allProdcuts, articulo])
+  }
+  console.log(allProdcuts)
+
   return (
     <>
       <header className='header'>
-        <Nav />
+        <Nav 
+        allProdcuts={allProdcuts}
+        setAllProdcuts={setAllProdcuts}/>
         <img className='imagenPresentacion1' src={imagenPresentacion} />
         <BajoCabecera titulo={'ACCESORIOS DUSTER'} />
       </header>
       <main className='main'>
         {articulosDuster.map(articulo => (
-          <div className='article'>
+          <div className='article' key={articulo.id}>
             <img src={articulo.imagen} />
             <h3 className='descripcion'>{articulo.nombre}</h3>
             <ul>
@@ -27,7 +38,7 @@ function Duster() {
               <h3>Valor: $</h3>
               <h3 className='Precio'>{articulo.precio}</h3>
             </div>
-            <button id='botonAgregar'>Agregar al carrito</button>
+            <button id='botonAgregar' onClick={()=>onAddProduct(articulo)}>Agregar al carrito</button>
           </div>
         ))}
         <Whatsapp />
