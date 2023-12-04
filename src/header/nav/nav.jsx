@@ -76,7 +76,7 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
           <h3 className="tituloCarrito">CARRITO</h3>
           <img className="cierreCarrito" onClick={cerrarCarrito} src={cierre} />
           <div className="itemsCarrito">
-            {allProducts.map(articulo=>(
+          {allProducts.map(articulo=>(
               <div className='items' key={articulo.id}>
                 <img className="imgArt" src=""/>
                 <div>
