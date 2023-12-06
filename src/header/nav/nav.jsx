@@ -52,13 +52,13 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
             <a href="#"><img src={cierre1} /></a>
           </div>
           <h4>ACCESORIOS POR VEHÍCULOS</h4>
-          <a href="http://localhost:5173/Alaskan#">Alaskan</a>
-          <a href="http://localhost:5173/Kangoo#">Kangoo II</a>
-          <a href="http://localhost:5173/Duster#">Duster</a>
-          <a href="http://localhost:5173/Oroch#">Oroch</a>
-          <a href="http://localhost:5173/Sandero#">Sandero</a>
-          <a href="http://localhost:5173/Stepway#">Stepway</a>
-          <a href="http://localhost:5173/Logan#">Logan</a>
+          <a href="http://localhost:5173/Alaskan">Alaskan</a>
+          <a href="http://localhost:5173/Kangoo">Kangoo II</a>
+          <a href="http://localhost:5173/Duster">Duster</a>
+          <a href="http://localhost:5173/Oroch">Oroch</a>
+          <a href="http://localhost:5173/Sandero">Sandero</a>
+          <a href="http://localhost:5173/Stepway">Stepway</a>
+          <a href="http://localhost:5173/Logan">Logan</a>
           <h4>DONDE NOS ENCONTRÁS</h4>
           <iframe className="gmap_canvas" width="100%" height="100%" src="https://maps.google.com/maps?q=avenida+juan+omingo+peron+1452%2C+monte+maiz%2C+cordoba%2C+argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
           <h4>NUESTRAS REDES</h4>
@@ -76,15 +76,6 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
           <h3 className="tituloCarrito">CARRITO</h3>
           <img className="cierreCarrito" onClick={cerrarCarrito} src={cierre} />
           <div className="itemsCarrito">
-          {allProducts.map(articulo=>(
-              <div className='items' key={articulo.id}>
-                <img className="imgArt" src=""/>
-                <div>
-                  <p>{articulo.nombre}</p>
-                  <p>${articulo.precio}</p>
-                </div>
-              </div>
-            ))}
           </div>
           <div className="baseCarrito">
             <h2>Total:</h2>
@@ -126,13 +117,13 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
         <a href="http://localhost:5173/">ACCESORIOS COLOCADOS</a>
         <a href="#vehiculos">VEHÍCULOS</a>
         <div id="vehiculos">
-          <a href="http://localhost:5173/Alaskan#"> <img src={alaskan} /></a>
-          <a href="http://localhost:5173/Kangoo#"><img src={kangoo} /></a>
-          <a href="http://localhost:5173/Duster#"><img src={duster} /></a>
-          <a href="http://localhost:5173/Oroch#"><img src={oroch} /></a>
-          <a href="http://localhost:5173/Sandero#"><img src={sandero} /></a>
-          <a href="http://localhost:5173/Stepway#"><img src={stepway} /></a>
-          <a href="http://localhost:5173/Logan#"><img src={logan} /></a>
+          <a href="http://localhost:5173/Alaskan"><img src={alaskan} /></a>
+          <a href="http://localhost:5173/Kangoo"><img src={kangoo} /></a>
+          <a href="http://localhost:5173/Duster"><img src={duster} /></a>
+          <a href="http://localhost:5173/Oroch"><img src={oroch} /></a>
+          <a href="http://localhost:5173/Sandero"><img src={sandero} /></a>
+          <a href="http://localhost:5173/Stepway"><img src={stepway} /></a>
+          <a href="http://localhost:5173/Logan"><img src={logan} /></a>
           <a id="cierre" href="#"><img src={cierre} /></a>
         </div>
         <a href="#ubicacion">UBICACIÓN</a>
