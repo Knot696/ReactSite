@@ -92,6 +92,7 @@ a {
   position: relative;
   margin-top: 5px;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 a:hover {

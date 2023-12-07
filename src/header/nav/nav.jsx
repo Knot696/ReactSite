@@ -55,10 +55,28 @@ function Nav({ valor, allProducts, setAllProdcuts, articulo }) {
   const [vehiculos, setVehiculos] = useState(false);
 
   const abrirVehiculos = () => {
-    setDesplegable(true);
+    setVehiculos(true);
   }
   const cerrarVehiculos = () => {
     setVehiculos(false);
+  }
+
+  const [ubicacion, setUbicacion] = useState(false);
+
+  const abrirUbicacion = () => {
+    setUbicacion(true);
+  }
+  const cerrarUbicacion = () => {
+    setUbicacion(false);
+  }
+
+  const [redes, setRedes] = useState(false);
+
+  const abrirRedes = () => {
+    setRedes(true);
+  }
+  const cerrarRedes = () => {
+    setRedes(false);
   }
 
   return (
@@ -133,28 +151,40 @@ function Nav({ valor, allProducts, setAllProdcuts, articulo }) {
         <img className='logo' src={logo} />
         <Link to="/">ACCESORIOS COLOCADOS</Link>
 
-        <a onClick={abrirVehiculos}>VEHÍCULOS</a>
+        <a onClick={()=>{
+          abrirVehiculos();
+          cerrarUbicacion();
+          cerrarRedes();
+          }}>VEHÍCULOS</a>
         <div className={`vehiculos${vehiculos ? " vehiculos1" : ""}`}>
-          <Link to="/Alaskan">Alaskan</Link>
-          <Link to="/Kangoo">Kangoo II</Link>
-          <Link to="/Duster">Duster</Link>
-          <Link to="/Oroch">Oroch</Link>
-          <Link to="/Sandero">Sandero</Link>
-          <Link to="/Stepway">Stepway</Link>
-          <Link to="/Logan">Logan</Link>
-          <a id="cierre" href="#"><img src={cierre} /></a>
+          <Link to="/Alaskan" ><img src={alaskan}/></Link>
+          <Link to="/Kangoo"><img src={kangoo}/></Link>
+          <Link to="/Duster"><img src={duster}/></Link>
+          <Link to="/Oroch"><img src={oroch}/></Link>
+          <Link to="/Sandero"><img src={sandero}/></Link>
+          <Link to="/Stepway"><img src={stepway}/></Link>
+          <Link to="/Logan"><img src={logan}/></Link>
+          <img id="cierre" onClick={cerrarVehiculos} src={cierre} />
         </div>
-        <a href="#ubicacion">UBICACIÓN</a>
-        <div id="ubicacion">
+        <a onClick={()=>{
+          abrirUbicacion();
+          cerrarRedes();
+          cerrarVehiculos();
+          }}>UBICACION</a>
+        <div className={`ubicacion${ubicacion ? " ubicacion1" : ""}`}>
           <iframe className="gmap_canvas" src="https://maps.google.com/maps?q=avenida+juan+omingo+peron+1452%2C+monte+maiz%2C+cordoba%2C+argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
-          <a id="cierre" href="#"><img src={cierre} /></a>
+          <img id="cierre" onClick={cerrarUbicacion} src={cierre} />
         </div>
-        <a href="#redes">REDES</a>
-        <div id="redes">
+        <a onClick={()=>{
+          abrirRedes();
+          cerrarUbicacion();
+          cerrarVehiculos();
+          }}>REDES</a>
+        <div className={`redes${redes ? " redes1" : ""}`}>
           <a href="https://www.facebook.com/jorgegiorgiaccesorios/" target="_blank"><img src={logoFace} /></a>
           <a href="https://www.instagram.com/jorgegiorgiservicios/" target="_blank"><img src={logoInsta} /></a>
           <a href="https://www.jorgegiorgi.com/" target="_blank"><img src={logoWeb} /></a>
-          <a id="cierre" href="#"><img src={cierre} /></a>
+          <img id="cierre" onClick={cerrarRedes} src={cierre} />
         </div>
         <div>
           <img className="botonCarrito" onClick={abrirCarrito} src={botonCarrito} />

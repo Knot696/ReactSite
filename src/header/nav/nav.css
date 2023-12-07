@@ -329,7 +329,6 @@ p {
   filter: drop-shadow(0 0 2px white);
   z-index: 6;
 }
-
 @keyframes aparecer {
   0% {
     opacity: 0%;
@@ -373,7 +372,7 @@ p {
     border-top: 1px solid white;
   }
 
-  /* .nav1 {
+  .nav1 {
     display: flex;
     position: fixed;
     padding: 10px;
@@ -392,7 +391,7 @@ p {
   }
 
   .vehiculos,
-  #redes {
+  .redes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -409,7 +408,7 @@ p {
     border-bottom: 1px solid;
   }
 
-  #ubicacion {
+  .ubicacion {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -425,8 +424,8 @@ p {
   }
 
   .vehiculos1,
-  #ubicacion:target,
-  #redes:target {
+  .ubicacion1,
+  .redes1 {
     left: 0px;
     top: 40px;
   }
@@ -436,12 +435,13 @@ p {
     width: auto;
   }
 
-  #vehiculos img {
+  .vehiculos img {
     height: 40px;
   }
 
-  #cierre img {
+  #cierre{
     height: 20px;
+    cursor: pointer;
   }
 
   .gmap_canvas {
@@ -460,5 +460,5 @@ p {
     font-size: 0.9rem;
     top: 5px;
     right: 23px;
-  }*/
+  }
 }
