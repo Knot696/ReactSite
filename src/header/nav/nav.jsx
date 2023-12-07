@@ -19,10 +19,11 @@ import logoInsta1 from '../../assets/imagenes/items/logoinsta.png'
 import logoWeb1 from '../../assets/imagenes/items/logoweb.png'
 import botonCarrito from '../../assets/imagenes/items/carrito.jpg'
 import check from '../../assets/imagenes/items/check.png'
+import { Link } from 'react-router-dom'
 
 
 
-function Nav({valor, allProducts, setAllProdcuts, articulo}) {
+function Nav({ valor, allProducts, setAllProdcuts, articulo }) {
 
   const [carrito, setCarrito] = useState(false);
 
@@ -42,23 +43,41 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
     setformulario(false);
   }
 
+  const [desplegable, setDesplegable] = useState(false);
+
+  const abrirDesplegable = () => {
+    setDesplegable(true);
+  }
+  const cerrarDesplegable = () => {
+    setDesplegable(false);
+  }
+
+  const [vehiculos, setVehiculos] = useState(false);
+
+  const abrirVehiculos = () => {
+    setDesplegable(true);
+  }
+  const cerrarVehiculos = () => {
+    setVehiculos(false);
+  }
+
   return (
     <>
       <nav>
-        <a className="menu" href="#desplegable"><img src={imagenMenu} /></a>
-        <div id="desplegable">
-          <div class="cierre">
+        <img className="menu" onClick={abrirDesplegable} src={imagenMenu} />
+        <div className={`desplegable${desplegable ? " desplegable1" : ""}`}>
+          <div className="cierre">
             <a href="http://localhost:5173/">Algunos de nuestros trabajos</a>
-            <a href="#"><img src={cierre1} /></a>
+            <img src={cierre1} className="cierreCarrito" onClick={cerrarDesplegable} />
           </div>
           <h4>ACCESORIOS POR VEHÍCULOS</h4>
-          <a href="http://localhost:5173/Alaskan">Alaskan</a>
-          <a href="http://localhost:5173/Kangoo">Kangoo II</a>
-          <a href="http://localhost:5173/Duster">Duster</a>
-          <a href="http://localhost:5173/Oroch">Oroch</a>
-          <a href="http://localhost:5173/Sandero">Sandero</a>
-          <a href="http://localhost:5173/Stepway">Stepway</a>
-          <a href="http://localhost:5173/Logan">Logan</a>
+          <Link to="/Alaskan">Alaskan</Link>
+          <Link to="/Kangoo">Kangoo II</Link>
+          <Link to="/Duster">Duster</Link>
+          <Link to="/Oroch">Oroch</Link>
+          <Link to="/Sandero">Sandero</Link>
+          <Link to="/Stepway">Stepway</Link>
+          <Link to="/Logan">Logan</Link>
           <h4>DONDE NOS ENCONTRÁS</h4>
           <iframe className="gmap_canvas" width="100%" height="100%" src="https://maps.google.com/maps?q=avenida+juan+omingo+peron+1452%2C+monte+maiz%2C+cordoba%2C+argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
           <h4>NUESTRAS REDES</h4>
@@ -69,9 +88,7 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
           </div>
         </div>
         <img className='logo1' src={logo} />
-        <div>
-          <img className="botonCarrito" onClick={abrirCarrito} src={botonCarrito} />
-        </div>
+        <img className="botonCarrito" onClick={abrirCarrito} src={botonCarrito} />
         <div className={`carrito${carrito ? " carrito1" : ""}`}>
           <h3 className="tituloCarrito">CARRITO</h3>
           <img className="cierreCarrito" onClick={cerrarCarrito} src={cierre} />
@@ -114,16 +131,17 @@ function Nav({valor, allProducts, setAllProdcuts, articulo}) {
       </nav>
       <div className='nav1'>
         <img className='logo' src={logo} />
-        <a href="http://localhost:5173/">ACCESORIOS COLOCADOS</a>
-        <a href="#vehiculos">VEHÍCULOS</a>
-        <div id="vehiculos">
-          <a href="http://localhost:5173/Alaskan"><img src={alaskan} /></a>
-          <a href="http://localhost:5173/Kangoo"><img src={kangoo} /></a>
-          <a href="http://localhost:5173/Duster"><img src={duster} /></a>
-          <a href="http://localhost:5173/Oroch"><img src={oroch} /></a>
-          <a href="http://localhost:5173/Sandero"><img src={sandero} /></a>
-          <a href="http://localhost:5173/Stepway"><img src={stepway} /></a>
-          <a href="http://localhost:5173/Logan"><img src={logan} /></a>
+        <Link to="/">ACCESORIOS COLOCADOS</Link>
+
+        <a onClick={abrirVehiculos}>VEHÍCULOS</a>
+        <div className={`vehiculos${vehiculos ? " vehiculos1" : ""}`}>
+          <Link to="/Alaskan">Alaskan</Link>
+          <Link to="/Kangoo">Kangoo II</Link>
+          <Link to="/Duster">Duster</Link>
+          <Link to="/Oroch">Oroch</Link>
+          <Link to="/Sandero">Sandero</Link>
+          <Link to="/Stepway">Stepway</Link>
+          <Link to="/Logan">Logan</Link>
           <a id="cierre" href="#"><img src={cierre} /></a>
         </div>
         <a href="#ubicacion">UBICACIÓN</a>

@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-#desplegable {
+.desplegable {
   display: flex;
   width: 280px;
   flex-direction: column;
@@ -20,16 +20,17 @@
   transition: 0.5s;
 }
 
-#desplegable:target {
+.desplegable1 {
   box-shadow: 100vh 0px 1px 100vh rgba(0, 0, 0, 0.8);
   left: 0px;
 }
 
-.menu img {
+.menu{
   margin: 5px;
   width: 25px;
   height: auto;
   animation: menu 10s infinite;
+  cursor: pointer;
 }
 
 nav {
@@ -64,8 +65,9 @@ nav {
 }
 
 .cierre img {
-  margin: 10px;
-  height: 20px;
+  margin-top: 3px;
+  width: 15px;
+  height: auto;
 }
 
 .redes {
@@ -371,7 +373,7 @@ p {
     border-top: 1px solid white;
   }
 
-  .nav1 {
+  /* .nav1 {
     display: flex;
     position: fixed;
     padding: 10px;
@@ -389,7 +391,7 @@ p {
     height: 30px;
   }
 
-  #vehiculos,
+  .vehiculos,
   #redes {
     display: flex;
     justify-content: space-between;
@@ -422,7 +424,7 @@ p {
     transition: 0.5s;
   }
 
-  #vehiculos:target,
+  .vehiculos1,
   #ubicacion:target,
   #redes:target {
     left: 0px;
@@ -451,20 +453,12 @@ p {
 
   nav {
     display: none;
-  }
+  } 
 
   .contadorCarrito {
     position: absolute;
     font-size: 0.9rem;
     top: 5px;
     right: 23px;
-  }
-}
-
-@media (min-width: 950px) {
-  .contadorCarrito {
-    position: absolute;
-    top: 5px;
-    right: 23px;
-  }
+  }*/
 }
