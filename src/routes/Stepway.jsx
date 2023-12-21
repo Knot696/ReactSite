@@ -1,6 +1,6 @@
 import '../App.css'
 import Nav from '../header/nav/nav'
-import imagenPresentacion from '../assets/imagenes/cabeceras/stepway.jpg'
+import imagenPresentacion from '../../public/imagenes/cabeceras/stepway.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Whatsapp from '../main/whatsapp'
 import { articulosStepway } from '../assets/articulos'

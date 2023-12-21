@@ -1,6 +1,6 @@
 import '../App.css'
 import Nav from '../header/nav/nav'
-import imagenPresentacion from '../assets/imagenes/cabeceras/sandero.jpg'
+import imagenPresentacion from '../../public/imagenes/cabeceras/sandero.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Whatsapp from '../main/whatsapp'
 import { articulosSandero } from '../assets/articulos'

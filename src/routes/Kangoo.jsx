@@ -1,6 +1,6 @@
 import '../App.css'
 import Nav from '../header/nav/nav'
-import imagenPresentacion from '../assets/imagenes/cabeceras/kangoo.jpg'
+import imagenPresentacion from '../../public/imagenes/cabeceras/kangoo.jpg'
 import BajoCabecera from '../header/nav/bajoCabecera'
 import Whatsapp from '../main/whatsapp'
 import { articulosKangoo } from '../assets/articulos'

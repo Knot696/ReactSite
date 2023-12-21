@@ -1,7 +1,7 @@
 export const articulosDuster = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/duster/1.jpg',
+    imagen: './imagenes/duster/1.jpg',
     nombre: 'DEFENSA FRONTAL',
     descripcion1: 'Plástico termoformado resistente al sol y productos químicos.',
     descripcion2: 'Protege carrocería en caso de colisión menor.',
@@ -10,7 +10,7 @@ export const articulosDuster = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/duster/2.jpg',
+    imagen: './imagenes/duster/2.jpg',
     nombre: 'PORTA EQUIPAJE',
     descripcion1: 'Fabricadas en hierro reforzado.',
     descripcion2: 'Fácil colocación, no requiere hacer modificaciones en el vehículo.',
@@ -19,7 +19,7 @@ export const articulosDuster = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/duster/3.jpg',
+    imagen: './imagenes/duster/3.jpg',
     nombre: 'APOYABRAZOS',
     descripcion1: 'Plegable.',
     descripcion2: 'Baulera guardaobjetos.',
@@ -28,8 +28,8 @@ export const articulosDuster = [
   },
   {
     id: 4,
+    imagen: './imagenes/duster/4.jpg',
     nombre: 'PROTECTORES DE PUERTA',
-    imagen: './src/assets/imagenes/duster/4.jpg',
     descripcion1: 'Protege y decora el vehículo.',
     descripcion2: 'Gran resistencia.',
     descripcion3: 'Grampa de fijación con bulón oculto.',
@@ -37,7 +37,7 @@ export const articulosDuster = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/duster/5.jpg',
+    imagen: './imagenes/duster/5.jpg',
     nombre: 'DEFLECTORES DE LLUVIA',
     descripcion1: 'Acrílico resistente',
     descripcion2: 'No permite formación de remolinos en interior del habitáculo.',
@@ -46,7 +46,7 @@ export const articulosDuster = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/duster/6.jpg',
+    imagen: './imagenes/duster/6.jpg',
     nombre: 'TRABA RUEDA AUXILIO',
     descripcion1: 'Listo para instalar.',
     descripcion2: 'Bloquea el acceso de herramientas genéricas.',
@@ -55,7 +55,7 @@ export const articulosDuster = [
   },
   {
     id: 7,
-    imagen: './src/assets/imagenes/duster/7.jpg',
+    imagen: './imagenes/duster/7.jpg',
     nombre: 'KIT FENDERS',
     descripcion1: 'Evita la aspersión de arena, barro y piedras.',
     descripcion2: 'Incluye kit limpiador de superficie para adhesivo.',
@@ -64,7 +64,7 @@ export const articulosDuster = [
   },
   {
     id: 8,
-    imagen: './src/assets/imagenes/duster/8.jpg',
+    imagen: './imagenes/duster/8.jpg',
     nombre: 'CAMARA RETROCESO',
     descripcion1: 'Cámara adaptada para vincular a MediaNav.',
     descripcion2: 'Línea de guía.',
@@ -73,7 +73,7 @@ export const articulosDuster = [
   },
   {
     id: 9,
-    imagen: './src/assets/imagenes/duster/9.jpg',
+    imagen: '.imagenes/duster/9.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -82,7 +82,7 @@ export const articulosDuster = [
   },
   {
     id: 10,
-    imagen: './src/assets/imagenes/duster/10.jpg',
+    imagen: './imagenes/duster/10.jpg',
     nombre: 'TORNILLOS DE SEGURIDAD',
     descripcion1: 'Kit 4 tornillos de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -91,7 +91,7 @@ export const articulosDuster = [
   },
   {
     id: 11,
-    imagen: './src/assets/imagenes/duster/11.jpg',
+    imagen: './imagenes/duster/11.jpg',
     nombre: 'POLARIZADOS',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -100,7 +100,7 @@ export const articulosDuster = [
   },
   {
     id: 12,
-    imagen: './src/assets/imagenes/duster/12.jpg',
+    imagen: './imagenes/duster/12.jpg',
     nombre: 'KIT SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',
@@ -111,7 +111,7 @@ export const articulosDuster = [
 export const articulosKangoo = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/kangoo/1.jpg',
+    imagen: './imagenes/kangoo/1.jpg',
     nombre: 'CANASTO TECHO',
     descripcion1: 'Cubre totalmente el techo.',
     descripcion2: 'Pintados negro con poliéster en polvo.',
@@ -120,7 +120,7 @@ export const articulosKangoo = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/kangoo/2.jpg',
+    imagen: './imagenes/kangoo/2.jpg',
     nombre: 'APOYABRAZOS',
     descripcion1: 'Plegable.',
     descripcion2: 'Baulera guardaobjetos.',
@@ -129,7 +129,7 @@ export const articulosKangoo = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/kangoo/3.jpg',
+    imagen: './imagenes/kangoo/3.jpg',
     nombre: 'CAMARA DE RETROCESO',
     descripcion1: 'Cámara adaptada para vincular a MediaNav.',
     descripcion2: 'Línea de guía.',
@@ -138,7 +138,7 @@ export const articulosKangoo = [
   },
   {
     id: 4,
-    imagen: './src/assets/imagenes/kangoo/4.jpg',
+    imagen: './imagenes/kangoo/4.jpg',
     nombre: 'LLANTAS DE ALEACIÓN',
     descripcion1: 'Ancho 15.25 Cm.',
     descripcion2: 'Diámetro de la llanta 15 pulgadas.',
@@ -147,7 +147,7 @@ export const articulosKangoo = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/kangoo/5.jpg',
+    imagen: './imagenes/kangoo/5.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -156,7 +156,7 @@ export const articulosKangoo = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/kangoo/6.jpg',
+    imagen: './imagenes/kangoo/6.jpg',
     nombre: 'TORNILLO DE SEGURIDAD',
     descripcion1: 'Kit 4 tornillos de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -165,7 +165,7 @@ export const articulosKangoo = [
   },
   {
     id: 7,
-    imagen: './src/assets/imagenes/kangoo/7.jpg',
+    imagen: './imagenes/kangoo/7.jpg',
     nombre: 'ENGANCHE BRACCO',
     descripcion1: 'Bastidor de caño 40×40 x3,2 de espesor y caños de 5/8 curvados.',
     descripcion2: 'Pintados negro con poliéster en polvo.',
@@ -174,7 +174,7 @@ export const articulosKangoo = [
   },
   {
     id: 8,
-    imagen: './src/assets/imagenes/kangoo/8.jpg',
+    imagen: './imagenes/kangoo/8.jpg',
     nombre: 'CANASTO TECHO BRACCO',
     descripcion1: 'Caño de 1 pulgada x 1.6 de pared, las rejillas de 5/8 x 1.6.',
     descripcion2: 'Pintado negro con poliéster en polvo.',
@@ -183,7 +183,7 @@ export const articulosKangoo = [
   },
   {
     id: 9,
-    imagen: './src/assets/imagenes/kangoo/9.jpg',
+    imagen: './imagenes/kangoo/9.jpg',
     nombre: 'CHAPON CUBRECARTER BRACCO',
     descripcion1: 'Construidos en chapa acero al carbono 2 mm de espesor.',
     descripcion2: 'Otorga protección completa para el cárter del vehículo.',
@@ -192,7 +192,7 @@ export const articulosKangoo = [
   },
   {
     id: 10,
-    imagen: './src/assets/imagenes/kangoo/10.jpg',
+    imagen: './imagenes/kangoo/10.jpg',
     nombre: 'COBERTOR FURGON BRACCO',
     descripcion1: 'Plástico termoformado resistente al sol y productos químicos.',
     descripcion2: 'Textura antideslizante de fácil limpieza.',
@@ -201,7 +201,7 @@ export const articulosKangoo = [
   },
   {
     id: 11,
-    imagen: './src/assets/imagenes/kangoo/11.jpg',
+    imagen: './imagenes/kangoo/11.jpg',
     nombre: 'POLARIZADOS',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -210,7 +210,7 @@ export const articulosKangoo = [
   },
   {
     id: 12,
-    imagen: './src/assets/imagenes/kangoo/12.jpg',
+    imagen: './imagenes/kangoo/12.jpg',
     nombre: 'KIT SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',
@@ -221,7 +221,7 @@ export const articulosKangoo = [
 export const articulosOroch = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/oroch/1.jpg',
+    imagen: './imagenes/oroch/1.jpg',
     nombre: 'DEFENSA FRONTAL',
     descripcion1: 'Plástico termoformado resistente al sol y productos químicos.',
     descripcion2: 'Protege carrocería en caso de colisión menor.',
@@ -230,7 +230,7 @@ export const articulosOroch = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/oroch/2.jpg',
+    imagen: './imagenes/oroch/2.jpg',
     nombre: 'PORTA EQUIPAJE',
     descripcion1: 'Fabricadas en hierro reforzado.',
     descripcion2: 'Fácil colocación, no requiere hacer modificaciones en el vehículo.',
@@ -239,7 +239,7 @@ export const articulosOroch = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/oroch/3.jpg',
+    imagen: './imagenes/oroch/3.jpg',
     nombre: 'BARRA SAN ANTONIO',
     descripcion1: 'Compatible con lona marítima.',
     descripcion2: 'Ayuda a transportar cargas y objetos.',
@@ -248,7 +248,7 @@ export const articulosOroch = [
   },
   {
     id: 4,
-    imagen: './src/assets/imagenes/oroch/4.jpg',
+    imagen: './imagenes/oroch/4.jpg',
     nombre: 'KIT BARREROS',
     descripcion1: 'Kit de barreros para las 4 ruedas.',
     descripcion2: 'Protege parte baja de vehículo de proyecciones de piedras.',
@@ -257,7 +257,7 @@ export const articulosOroch = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/oroch/5.jpg',
+    imagen: './imagenes/oroch/5.jpg',
     nombre: 'LONA MARITIMA',
     descripcion1: 'Manija apertura con cable de acero.',
     descripcion2: 'Cierre con resorte.',
@@ -266,7 +266,7 @@ export const articulosOroch = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/oroch/6.jpg',
+    imagen: './imagenes/oroch/6.jpg',
     nombre: 'DEFLECTORES DE LLUVIA',
     descripcion1: 'Acrílico resistente',
     descripcion2: 'No permite formación de remolinos en interior del habitáculo.',
@@ -275,7 +275,7 @@ export const articulosOroch = [
   },
   {
     id: 7,
-    imagen: './src/assets/imagenes/oroch/7.jpg',
+    imagen: './imagenes/oroch/7.jpg',
     nombre: 'ESTRIBOS',
     descripcion1: 'Perfil de aluminio estrusado con tratamiento anodizado natural.',
     descripcion2: 'Pisaderas antideslizantes y punteras de inyección plástica.',
@@ -284,7 +284,7 @@ export const articulosOroch = [
   },
   {
     id: 8,
-    imagen: './src/assets/imagenes/oroch/8.jpg',
+    imagen: './imagenes/oroch/8.jpg',
     nombre: 'APOYABRAZOS',
     descripcion1: 'Plegable.',
     descripcion2: 'Baulera guardaobjetos.',
@@ -293,7 +293,7 @@ export const articulosOroch = [
   },
   {
     id: 9,
-    imagen: './src/assets/imagenes/oroch/9.jpg',
+    imagen: './imagenes/oroch/9.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -302,7 +302,7 @@ export const articulosOroch = [
   },
   {
     id: 10,
-    imagen: './src/assets/imagenes/oroch/10.jpg',
+    imagen: './imagenes/oroch/10.jpg',
     nombre: 'TORNILLOS DE SEGURIDAD',
     descripcion1: 'Kit 4 tornillos de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -311,7 +311,7 @@ export const articulosOroch = [
   },
   {
     id: 11,
-    imagen: './src/assets/imagenes/oroch/11.jpg',
+    imagen: './imagenes/oroch/11.jpg',
     nombre: 'POLARIZADO',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -320,7 +320,7 @@ export const articulosOroch = [
   },
   {
     id: 12,
-    imagen: './src/assets/imagenes/oroch/12.jpg',
+    imagen: './imagenes/oroch/12.jpg',
     nombre: 'KIT SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',
@@ -329,7 +329,7 @@ export const articulosOroch = [
   },
   {
     id: 13,
-    imagen: './src/assets/imagenes/oroch/13.jpg',
+    imagen: './imagenes/oroch/13.jpg',
     nombre: 'CAMARA DE RETROCESO',
     descripcion1: 'Cámara adaptada para vincular a MediaNav.',
     descripcion2: 'Línea de guía.',
@@ -340,7 +340,7 @@ export const articulosOroch = [
 export const articulosSandero = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/sandero/1.jpg',
+    imagen: './imagenes/sandero/1.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -349,7 +349,7 @@ export const articulosSandero = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/sandero/2.jpg',
+    imagen: './imagenes/sandero/2.jpg',
     nombre: 'TORNILLOS DE SEGURIDAD',
     descripcion1: 'Kit 4 tornillos de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -358,7 +358,7 @@ export const articulosSandero = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/sandero/3.jpg',
+    imagen: './imagenes/sandero/3.jpg',
     nombre: 'POLARIZADOS',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -367,7 +367,7 @@ export const articulosSandero = [
   },
   {
     id: 4,
-    imagen: './src/assets/imagenes/sandero/4.jpg',
+    imagen: './imagenes/sandero/4.jpg',
     nombre: 'KIT DE SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',
@@ -376,7 +376,7 @@ export const articulosSandero = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/sandero/5.jpg',
+    imagen: './imagenes/sandero/5.jpg',
     nombre: 'CAMARA DE RETROCESO',
     descripcion1: 'Cámara adaptada para vincular a MediaNav.',
     descripcion2: 'Línea de guía.',
@@ -385,7 +385,7 @@ export const articulosSandero = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/sandero/6.jpg',
+    imagen: './imagenes/sandero/6.jpg',
     nombre: 'CHAPON CUBRECARTER',
     descripcion1: 'Construidos en chapa acero al carbono 2 mm de espesor.',
     descripcion2: 'Otorga protección completa para el cárter del vehículo.',
@@ -396,7 +396,7 @@ export const articulosSandero = [
 export const articulosStepway = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/sandero/1.jpg',
+    imagen: './imagenes/sandero/1.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -405,7 +405,7 @@ export const articulosStepway = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/sandero/2.jpg',
+    imagen: './imagenes/sandero/2.jpg',
     nombre: 'TORNILLOS DE SEGURIDAD',
     descripcion1: 'Kit 4 tornillos de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -414,7 +414,7 @@ export const articulosStepway = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/sandero/3.jpg',
+    imagen: './imagenes/sandero/3.jpg',
     nombre: 'POLARIZADOS',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -423,7 +423,7 @@ export const articulosStepway = [
   },
   {
     id: 4,
-    imagen: './src/assets/imagenes/sandero/4.jpg',
+    imagen: './imagenes/sandero/4.jpg',
     nombre: 'KIT DE SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',
@@ -432,7 +432,7 @@ export const articulosStepway = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/sandero/5.jpg',
+    imagen: './imagenes/sandero/5.jpg',
     nombre: 'CAMARA DE RETROCESO',
     descripcion1: 'Cámara adaptada para vincular a MediaNav.',
     descripcion2: 'Línea de guía.',
@@ -441,7 +441,7 @@ export const articulosStepway = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/sandero/6.jpg',
+    imagen: './imagenes/sandero/6.jpg',
     nombre: 'CHAPON CUBRECARTER',
     descripcion1: 'Construidos en chapa acero al carbono 2 mm de espesor.',
     descripcion2: 'Otorga protección completa para el cárter del vehículo.',
@@ -450,7 +450,7 @@ export const articulosStepway = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/sandero/7.jpg',
+    imagen: './imagenes/sandero/7.jpg',
     nombre: 'PORTA EQUIPAJE BRACCO',
     descripcion1: 'Fabricadas en hierro reforzado.',
     descripcion2: 'Fácil colocación, no requiere hacer modificaciones en el vehículo.',
@@ -461,7 +461,7 @@ export const articulosStepway = [
 export const articulosAlaskan = [
   {
     id: 1,
-    imagen: './src/assets/imagenes/alaskan/1.jpg',
+    imagen: './imagenes/alaskan/1.jpg',
     nombre: 'JAULA NEGRA',
     descripcion1: 'Jaula negra caño tubular simple',
     descripcion2: 'Base para lona marítima.',
@@ -470,7 +470,7 @@ export const articulosAlaskan = [
   },
   {
     id: 2,
-    imagen: './src/assets/imagenes/alaskan/2.jpg',
+    imagen: './imagenes/alaskan/2.jpg',
     nombre: 'JAULA CROMADA',
     descripcion1: 'Jaula cromada caño tubular simple.',
     descripcion2: 'Base para lona marítima.',
@@ -479,7 +479,7 @@ export const articulosAlaskan = [
   },
   {
     id: 3,
-    imagen: './src/assets/imagenes/alaskan/3.jpg',
+    imagen: './imagenes/alaskan/3.jpg',
     nombre: 'LONA MARITIMA',
     descripcion1: 'Manija apertura con cable de acero.',
     descripcion2: 'Cierre con resorte.',
@@ -488,7 +488,7 @@ export const articulosAlaskan = [
   },
   {
     id: 4,
-    imagen: './src/assets/imagenes/alaskan/4.jpg',
+    imagen: './imagenes/alaskan/4.jpg',
     nombre: 'COBERTOR',
     descripcion1: 'Plástico termoformado resistente al sol y productos químicos.',
     descripcion2: 'Textura antideslizante de fácil limpieza.',
@@ -497,7 +497,7 @@ export const articulosAlaskan = [
   },
   {
     id: 5,
-    imagen: './src/assets/imagenes/alaskan/5.jpg',
+    imagen: './imagenes/alaskan/5.jpg',
     nombre: 'DEFLECTORES DE LLUVIA',
     descripcion1: 'Acrílico resistente',
     descripcion2: 'No permite formación de remolinos en interior del habitáculo.',
@@ -506,7 +506,7 @@ export const articulosAlaskan = [
   },
   {
     id: 6,
-    imagen: './src/assets/imagenes/alaskan/6.jpg',
+    imagen: './imagenes/alaskan/6.jpg',
     nombre: 'KIT FENDERS',
     descripcion1: 'Evita la aspersión de arena, barro y piedras.',
     descripcion2: 'Incluye kit limpiador de superficie para adhesivo.',
@@ -515,7 +515,7 @@ export const articulosAlaskan = [
   },
   {
     id: 7,
-    imagen: './src/assets/imagenes/alaskan/7.jpg',
+    imagen: './imagenes/alaskan/7.jpg',
     nombre: 'PROTECCION FRONTAL',
     descripcion1: 'Plástico termoformado resistente al sol y productos químicos.',
     descripcion2: 'Protege carrocería  en caso de colisión menor.',
@@ -524,7 +524,7 @@ export const articulosAlaskan = [
   },
   {
     id: 8,
-    imagen: './src/assets/imagenes/alaskan/8.jpg',
+    imagen: './imagenes/alaskan/8.jpg',
     nombre: 'TUERCAS DE SEGURIDAD',
     descripcion1: 'Kit 4 tuercas de seguridad con llave especial.',
     descripcion2: 'Evita la manipulación de llantas con herramientas convencionales.',
@@ -533,7 +533,7 @@ export const articulosAlaskan = [
   },
   {
     id: 9,
-    imagen: './src/assets/imagenes/alaskan/9.jpg',
+    imagen: './imagenes/alaskan/9.jpg',
     nombre: 'POLARIZADOS',
     descripcion1: 'Polarizados comunes y de seguridad.',
     descripcion2: 'Laminas con tonalidad media y clara.',
@@ -542,7 +542,7 @@ export const articulosAlaskan = [
   },
   {
     id: 10,
-    imagen: './src/assets/imagenes/alaskan/10.jpg',
+    imagen: './imagenes/alaskan/10.jpg',
     nombre: 'SENSORES DE ESTACIONAMIENTO',
     descripcion1: 'Alerta sonora al acercarse a un objeto.',
     descripcion2: 'Regulación de distancia de alerta.',
@@ -551,7 +551,7 @@ export const articulosAlaskan = [
   },
   {
     id: 11,
-    imagen: './src/assets/imagenes/alaskan/11.jpg',
+    imagen: './imagenes/alaskan/11.jpg',
     nombre: 'TALAMPAYA INOXIDABLE BRACCO',
     descripcion1: 'Estructura de caño en una sola pieza acero inoxidable.',
     descripcion2: 'Terminación pulido espejo.',
@@ -560,7 +560,7 @@ export const articulosAlaskan = [
   },
   {
     id: 12,
-    imagen: './src/assets/imagenes/alaskan/12.jpg',
+    imagen: './imagenes/alaskan/12.jpg',
     nombre: 'TALAMPAYA NEGRA BRACCO',
     descripcion1: 'Estructura de caño en una sola pieza.',
     descripcion2: 'Terminación pulido espejo.',
@@ -569,7 +569,7 @@ export const articulosAlaskan = [
   },
   {
     id: 13,
-    imagen: './src/assets/imagenes/alaskan/13.jpg',
+    imagen: './imagenes/alaskan/13.jpg',
     nombre: 'ENGANCHE REFORZADO BRACCO',
     descripcion1: 'Bastidor de caño 60×60 x3,2 de espesor.',
     descripcion2: 'Pintados negro con poliéster en polvo.',
@@ -578,7 +578,7 @@ export const articulosAlaskan = [
   },
   {
     id: 14,
-    imagen: './src/assets/imagenes/alaskan/14.jpg',
+    imagen: './imagenes/alaskan/14.jpg',
     nombre: 'ENGANCHE COMUN BRACCO',
     descripcion1: 'Bastidor de caño 40×40 x3,2 de espesor.',
     descripcion2: 'Pintados negro con poliéster en polvo.',
@@ -587,7 +587,7 @@ export const articulosAlaskan = [
   },
   {
     id: 15,
-    imagen: './src/assets/imagenes/alaskan/15.jpg',
+    imagen: './imagenes/alaskan/15.jpg',
     nombre: 'JAULA CAÑO DOBLE INOXIDABLE BRACCO',
     descripcion1: 'Tubos de acero inoxidable.',
     descripcion2: 'Terminación pulido espejo.',
@@ -596,7 +596,7 @@ export const articulosAlaskan = [
   },
   {
     id: 16,
-    imagen: './src/assets/imagenes/alaskan/16.jpg',
+    imagen: './imagenes/alaskan/16.jpg',
     nombre: 'JAULA CAÑO DOBLE NEGRA BRACCO',
     descripcion1: 'Tubos de acero al carbono.',
     descripcion2: 'Pintada negra con poliéster en polvo.',
@@ -605,7 +605,7 @@ export const articulosAlaskan = [
   },
   {
     id: 17,
-    imagen: './src/assets/imagenes/alaskan/17.jpg',
+    imagen: './imagenes/alaskan/17.jpg',
     nombre: 'JAULA CAÑO SIMPLE INOXIDABLE BRACCO',
     descripcion1: 'Tubos de acero inoxidable.',
     descripcion2: 'Terminación pulido espejo.',
@@ -614,7 +614,7 @@ export const articulosAlaskan = [
   },
   {
     id: 18,
-    imagen: './src/assets/imagenes/alaskan/18.jpg',
+    imagen: './imagenes/alaskan/18.jpg',
     nombre: 'JAULA CAÑO SIMPLE NEGRA BRACCO',
     descripcion1: 'Tubos de acero al carbono.',
     descripcion2: 'Pintada negra con poliéster en polvo.',
@@ -623,7 +623,7 @@ export const articulosAlaskan = [
   },
   {
     id: 19,
-    imagen: './src/assets/imagenes/alaskan/19.jpg',
+    imagen: './imagenes/alaskan/19.jpg',
     nombre: 'JAULA TRABAJO BRACCO',
     descripcion1: 'Jaula despiezada para fácil trasporte.',
     descripcion2: 'Tubos de acero al carbono.',
@@ -632,7 +632,7 @@ export const articulosAlaskan = [
   },
   {
     id: 20,
-    imagen: './src/assets/imagenes/alaskan/20.jpg',
+    imagen: './imagenes/alaskan/20.jpg',
     nombre: 'ESTRIBOS SIMIL ORIGINAL',
     descripcion1: 'Perfil de aluminio estrusado con tratamiento anodizado natural.',
     descripcion2: 'Pisaderas antideslizantes y punteras de inyección plástica.',
@@ -641,7 +641,7 @@ export const articulosAlaskan = [
   },
   {
     id: 21,
-    imagen: './src/assets/imagenes/alaskan/21.jpg',
+    imagen: './imagenes/alaskan/21.jpg',
     nombre: 'TAPA RIGIDA',
     descripcion1: 'Componentes ensamblados y sellados con siliconas especiales.',
     descripcion2: 'Resistente a las inclemencias del tiempo.',
@@ -650,7 +650,7 @@ export const articulosAlaskan = [
   },
   {
     id: 22,
-    imagen: './src/assets/imagenes/alaskan/22.jpg',
+    imagen: './imagenes/alaskan/22.jpg',
     nombre: 'KIT SEGURIDAD',
     descripcion1: 'Matafuego homologado 1kg polvo ABC.',
     descripcion2: 'Balizas reflectivas con base.',

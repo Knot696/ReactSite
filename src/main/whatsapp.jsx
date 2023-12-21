@@ -1,5 +1,5 @@
 import './whatsapp.css'
-import logoWhatsapp from '../assets/imagenes/items/logow.png'
+import logoWhatsapp from '../../public/imagenes/items/logow.png'
 
 function Whatsapp({ imagen, descripcion }) {
     return (
